@@ -397,6 +397,19 @@ FodyWeavers.xsd
 
 # Windows Installer files from build outputs
 *.cab
+
+# PowerShell-specific
+*.ps1~
+*.psm1
+*.psd1
+*.log
+*.tmp
+*.bak
+
+# System/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
 *.msi
 *.msix
 *.msm
